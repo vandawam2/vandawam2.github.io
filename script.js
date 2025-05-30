@@ -111,3 +111,5 @@ function renderChat(url) {
   mainChat.classList.remove('hidden');
   noChat.classList.add('hidden');
 }
+
+renderChat(2);
