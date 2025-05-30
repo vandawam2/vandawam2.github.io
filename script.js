@@ -112,4 +112,7 @@ function renderChat(url) {
   noChat.classList.add('hidden');
 }
 
-renderChat(2);
+document.addEventListener('DOMContentLoaded', function () {
+  // Code di sini akan jalan setelah seluruh DOM siap
+  renderChat(2);
+});
